@@ -90,8 +90,6 @@ const UploadForm = ({currentId, setCurrentId}) => {
             <Button  variant="contained" color="secondary" size="small" onClick={clear} fullWidth>Clear</Button>
 
         </form>
-
-        <p>{postData.tags}</p>
     </Card>
   ) 
 }
