@@ -1,4 +1,4 @@
-require('dotenv').config()
+const dotenv = require('dotenv')
 const express = require('express')
 const app = express()
 const path = require('path')
@@ -8,7 +8,7 @@ const connectDB = require('./config/dbConn')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const postRoutes = require('./routes/posts.js')
-
+dotenv.config()
 
 
 app.use(bodyParser.json({limit: "30mb", extended: true}))

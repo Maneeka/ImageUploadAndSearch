@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5000/posts'
+const url = 'https://image-upload-and-search.herokuapp.com/posts'
 
 export const fetchImages = () => axios.get(url)
 
