@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const {getImages, createImage, updateImage, deletePost, likePost, searchImages} =  require('../controllers/postsController.js')
 
-//http://localhost:5000/posts
+//https://image-upload-and-search.herokuapp.com/posts
 router.get('/', getImages)
 router.post('/', createImage)
 router.patch('/:id', updateImage) //update an existing document
