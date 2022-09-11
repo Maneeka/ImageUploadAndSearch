@@ -25,13 +25,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/posts/search" element={<Results/>} />
-          
         </Routes>
 
-        
-        
-
-     
     </ThemeProvider>
     </BrowserRouter>
   );
